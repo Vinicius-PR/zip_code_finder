@@ -87,10 +87,6 @@ const Form = () => {
                             onBlur: (e) => {
                                 getAddress(e.target.value)
                             },
-                            ons: (e) => {
-                                getAddress(e.target.value)
-                                console.log('on submit')
-                            },
                             validate: () => validationResult || "Cep inválido"
                         })}
                     />
